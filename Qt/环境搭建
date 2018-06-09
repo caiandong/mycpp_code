@@ -1,1 +1,4 @@
 http://download.qt.io/archive/qt/   获取qt版本
+linux
+    chmod +x qt-opensource-linux-x64-5.11.0.run  获取权限
+    ./qt-opensource-linux-x64-5.11.0.run    安装
