@@ -2,3 +2,5 @@ http://download.qt.io/archive/qt/   获取qt版本
 linux
     chmod +x qt-opensource-linux-x64-5.11.0.run  获取权限
     ./qt-opensource-linux-x64-5.11.0.run    安装
+找到这个文件夹 Qt5.10.1/Tools/QtCreator/lib/Qt/plugins/platforminputcontexts/
+并在下面添上 libfcitxplatforminputcontextplugin.so 文件，这样qtcreator就能输入中文了
