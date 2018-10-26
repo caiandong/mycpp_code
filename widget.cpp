@@ -9,8 +9,8 @@ Widget::Widget(QWidget *parent) :
     ui(new Ui::Widget)
 {
     ui->setupUi(this);
-    a=b=new vector<int>(1,0);
-
+    a=new vector<int>(1,0);
+    b=new vector<int>(1,0);
     qtime=new QTimer(this);
     task=new task_sort(que);
     mythread=new QThread(this);
